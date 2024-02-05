@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/txtIntro"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="Welcome to my App"
+        android:textColor="#fc033d"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtSoA"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="Số A" />
+
+    <EditText
+        android:id="@+id/edtNhapSoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập số A"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txtSoB"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Số B" />
+
+    <EditText
+        android:id="@+id/edtNhapSoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập số B"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtResult"
+        android:layout_width="249dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:background="#4efc03"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="Kết Quả"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cộng" />
+
+        <Button
+            android:id="@+id/btnTru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Trừ" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nhân" />
+
+        <Button
+            android:id="@+id/btnChia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Chia" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLongClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long Click" />
+
+    <Button
+        android:id="@+id/btnThoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng xuất khỏi Trái Đất" />
+</LinearLayout>

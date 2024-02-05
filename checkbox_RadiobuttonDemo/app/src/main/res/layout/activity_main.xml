@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sở thích của bạn"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="#9C27B0" />
+
+    <CheckBox
+        android:id="@+id/chkMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nghe Nhạc"
+        android:textColor="#f20" />
+
+    <CheckBox
+        android:id="@+id/chkMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f20"
+        android:text="Xem phim" />
+
+    <CheckBox
+        android:id="@+id/chkSport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f20"
+        android:text="Chơi thể thao" />
+
+    <CheckBox
+        android:id="@+id/chkShopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f20"
+        android:text="Shopping" />
+
+    <CheckBox
+        android:id="@+id/chklTravel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f20"
+        android:text="Du lịch" />
+
+    <Button
+        android:id="@+id/btnChonSoThich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Chọn Sở Thích" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sở thích bạn đã chọn là:"
+        android:textColor="#9C27B0" />
+
+    <EditText
+        android:id="@+id/edtSoThich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Sở thích mà bạn đã chọn sẽ hiện ở đây: "
+        android:inputType="textMultiLine" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radNam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nam" />
+
+        <RadioButton
+            android:id="@+id/radNu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nữ" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnXacNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xác Nhận" />
+
+    <EditText
+        android:id="@+id/edtXacNhanGioiTInh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Giới tính mà bạn đã xác nhận"
+        android:inputType="text" />
+
+
+</LinearLayout>
+
