@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SpinerDemo</string>
+    <string-array name="app_language">
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Spanish</item>
+    </string-array>
+</resources>
